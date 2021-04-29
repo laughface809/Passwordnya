@@ -12,8 +12,8 @@
 Passwordnya is designed to facilitate local password management. Of course it is open source and can be expanded again.
 
 - [Open Source] Clone Repo and Install 
-- [Encode Now] with various types of encoding namely base64 and sha256
-- [Plug n Play] Easy to transfer to other machines and short operation
+- [Encode Now] with various types of encoding base64 and sha256
+- [Plug n Play] Easy to transfer to other machines with short operation
 
 
 ## Installation
