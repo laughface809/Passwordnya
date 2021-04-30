@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3daeed15-ccd2-4067-9984-32a053343dbc" name="Default Changelist" comment="" />
+    <list default="true" id="3daeed15-ccd2-4067-9984-32a053343dbc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AkunController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AkunController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Akun.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Akun.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Password.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_04_28_071651_create_passwords_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_04_28_071746_create_akuns_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_04_28_144203_create_password_akun_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/PasswordsTableSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/akun/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/akun/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/akun/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/akun/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/template/master2.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/template/master2.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +26,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -122,11 +141,14 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1rmmTkvIbbfWRJtKLo7JQfwE7MH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin/template" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -152,7 +174,10 @@
       <option name="presentableId" value="Default" />
       <updated>1619589649230</updated>
       <workItem from="1619589650424" duration="29218000" />
-      <workItem from="1619663401861" duration="15699000" />
+      <workItem from="1619663401861" duration="19969000" />
+      <workItem from="1619704591387" duration="8603000" />
+      <workItem from="1619734016759" duration="1759000" />
+      <workItem from="1619767476475" duration="12598000" />
     </task>
     <servers />
   </component>
@@ -160,6 +185,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="278" y="45" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619769814863">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="278" y="45" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1619769814863" />
     <state x="354" y="176" width="647" height="416" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1619602307044">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -168,10 +197,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="416" y="142" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.768@0.0.1366.768" timestamp="1619602607589" />
-    <state x="478" y="305" width="399" height="157" key="NewPhpFileDialog" timestamp="1619601656548">
+    <state width="263" height="541" key="HiddenNamespacesPopup" timestamp="1619769824627">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="478" y="305" width="399" height="157" key="NewPhpFileDialog/0.0.1366.768@0.0.1366.768" timestamp="1619601656548" />
+    <state width="263" height="541" key="HiddenNamespacesPopup/0.0.1366.768@0.0.1366.768" timestamp="1619769824627" />
+    <state x="478" y="305" width="399" height="157" key="NewPhpFileDialog" timestamp="1619710330248">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="478" y="305" width="399" height="157" key="NewPhpFileDialog/0.0.1366.768@0.0.1366.768" timestamp="1619710330248" />
     <state x="347" y="169" width="672" height="677" key="run.anything.popup" timestamp="1619674554871">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

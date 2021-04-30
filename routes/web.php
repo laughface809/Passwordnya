@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\AkunController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,7 +18,6 @@ Route::get('/', function () {
 });
 
 Route::post('/akuns', 'App\Http\Controllers\AkunController@store');
-//Route::get('/passwords', 'App\Http\Controllers\PasswordController@index');
 Route::get('/akuns', 'App\Http\Controllers\AkunController@index');
 Route::get('/akuns/create', 'App\Http\Controllers\AkunController@create');
-
+Route::delete('/akuns/{id}', 'App\Http\Controllers\AkunController@destroy');

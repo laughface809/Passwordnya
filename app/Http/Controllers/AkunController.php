@@ -54,8 +54,6 @@ class AkunController extends Controller
             $akun->encode = $dataencode;
         }
         $akun->save();
-        /*$akun->passwords()->sync($request->passwords, 'false');
-        Session::flash('Success', $akun->nama . 'berhasil ditambah'); */
         return redirect('akuns');
     }
 
@@ -76,9 +74,8 @@ class AkunController extends Controller
      * @param  \App\Models\Akun  $akun
      * @return \Illuminate\Http\Response
      */
-    public function edit(Akun $akun)
+    public function edit()
     {
-        //
     }
 
     /**
@@ -99,8 +96,9 @@ class AkunController extends Controller
      * @param  \App\Models\Akun  $akun
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Akun $akun)
+    public function destroy(Akun $id)
     {
-        //
+        $id->delete();
+        return redirect('/akuns');
     }
 }

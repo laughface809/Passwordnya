@@ -14,9 +14,4 @@ class Akun extends Model
         'encode',
         'jenis',
     ];
-
-    public function passwords()
-    {
-        return $this->belongsToMany(Password::class);
-    }
 }
